@@ -13,4 +13,4 @@ DEBUG = True
 
 WTF_CSRF_ENABLED = False
 SQLALCHEMY_TRACK_MODIFICATIONS = True
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:Cleo1999*@localhost:5432/artists'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:<Password>*@localhost:<PORT>/<TABLENAME'
